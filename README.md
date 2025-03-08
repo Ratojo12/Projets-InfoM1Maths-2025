@@ -1,6 +1,6 @@
 ## Projet 10 "Série de Fourier"
 
-- La série de Fourier permet d'approximer une fonction périodique $f(x)$ par une somme infinie de $cosinus$ et $sinus$.
+- La série de Fourier permet d'approximer une fonction périodique $f(x)=x$ par une somme infinie de $cosinus$ et $sinus$.
   $$S_N(x)=\frac{a_0}{2}+\sum_{n=1}^{N}\left(a_n\cos(nx)+b_n\sin(nx)\right)$$
 
 - Les coefficients de Fourier sont donnés par :
@@ -19,8 +19,8 @@ $$b_n=\fract{1}{\pi}\int_{-\pi}^{\pi}f(x)\sin(nx)\dx$$
 - Visible dans l' approximation de la fonction en **signaux carrés** et **en marche d" escalier** .
 
 
-## Manipulation 
-- Cette manipulation peut être utiliser les bibliothèques numpy et matplotlib.
+## Conclusion 
+Pour tracer cette courbe , on va utiliser les bibliothèques python ( numpy et matplotlib,...)
 
 
 
